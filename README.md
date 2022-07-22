@@ -1,6 +1,9 @@
 # SIXT33N
 A robot car that can hear your commands to move in desired direction.
 
+# PREVIEW
+![robot car](img/5.png)
+
 ### Motivation
 This project is one of the course projects from Optimization course at UC Berkeley.  By completing this project, we first have a preliminary understanding of the neural network of machine learning, understand how the various layers of the neural network coordinate and cooperate to perform classification prediction, and also understand the limitations of the neural network and how to optimize and improve it. 
 
@@ -18,3 +21,8 @@ Finally, we can check the results of our optimization and analyze the robustness
 - Python
 - Software Development
 - Unix/Linux
+
+![PCA](img/1.png)
+![PCA](img/2.png)
+![PCA](img/3.png)
+![PCA](img/4.png)
