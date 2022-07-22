@@ -4,12 +4,18 @@ A robot car that can hear your commands to move in desired direction.
 # PREVIEW
 ![robot car](img/6.png)
 
-### Motivation
-This project is one of the course projects from Optimization course at UC Berkeley.  By completing this project, we first have a preliminary understanding of the neural network of machine learning, understand how the various layers of the neural network coordinate and cooperate to perform classification prediction, and also understand the limitations of the neural network and how to optimize and improve it. 
+### Process
+After reading the data into our directory, we had to align audio recordings. This is because we may start to pronounce the word a bit after the red light blinks (indicating that it starts recording), so we cut off the part where the data is noises. We achieved this by setting length and threshold variables relative to the maximum value of the data.
 
-Secondly, we use this model to examine the theory we have learned, specifically convert the primal problem into a convex and solvable problem by modifying the nonlinear and non-convex RELU, and then simplifying the solution of the primal problem by solving the dual network.
+We then generated and preprocessed PCA matrix by stacking the four words together. We also demeaned the matrix because we want to center the data around the mean to eliminate the intensity fluctuations (our speaking might vary).
 
-Finally, we can check the results of our optimization and analyze the robustness of classifier by comparing different Epsilon parameters.
+To save memory and ease computation, we picked the first four principal (with the biggest sigma values, meaning the biggest variance) components to represent the whole data set.
+
+We wrote code of find_centroids function to find clustering data points.
+
+We then did the same preprocessing to the test data.
+
+At last, we tested the classifier and find the accuracy. The results were shown above.
 
 ### Description
 - Implemented a PCA voice classifier and deployed it using C/C++ coding in Unix/Linux environments.
