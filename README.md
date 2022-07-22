@@ -9,11 +9,12 @@ Secondly, we use this model to examine the theory we have learned, specifically 
 Finally, we can check the results of our optimization and analyze the robustness of classifier by comparing different Epsilon parameters.
 
 ### Description
-- Implemented a robust classifier for natural language processing.
-- Had a curious mindset on new concept challenges.
-- understood how the various layers of the neural network coordinate and cooperate to perform classification prediction.
+- Implemented a PCA voice classifier and deployed it using C/C++ coding in Unix/Linux environments.
+- Brought to analyze information to choose the best commands.
+- Created technical solutions and applied engineering principles to solve problems to complete software projects with members from diverse culture.
 
 ### Skills to learn
+- C/C++
 - Python
-- Natural Language Processing
-- Machine Learning
+- Software Development
+- Unix/Linux
