@@ -20,7 +20,7 @@ At last, we tested the classifier and find the accuracy.
 ### Description
 - Implemented a PCA voice classifier and deployed it using C/C++ coding in Unix/Linux environments.
 - Brought to analyze information to choose the best commands.
-- Created technical solutions and applied engineering principles to solve problems to complete software projects with members from diverse culture.
+- Created technical solutions and applied engineering principles to solve problems and complete software projects with members from diverse culture.
 
 ### Skills to learn
 - C/C++
