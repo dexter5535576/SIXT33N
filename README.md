@@ -15,7 +15,7 @@ We wrote code of find_centroids function to find clustering data points.
 
 We then did the same preprocessing to the test data.
 
-At last, we tested the classifier and find the accuracy. The results were shown above.
+At last, we tested the classifier and find the accuracy.
 
 ### Description
 - Implemented a PCA voice classifier and deployed it using C/C++ coding in Unix/Linux environments.
